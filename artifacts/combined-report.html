@@ -2,169 +2,260 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<title>Combined Performance Report</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Analytics</title>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 24px;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-top: 16px;
-}
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-th {
-  background: #333;
-  color: white;
-}
-canvas {
-  margin-top: 24px;
-}
-</style>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --panel: rgba(30, 41, 59, 0.7);
+            --border: rgba(255, 255, 255, 0.1);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --safe: #22c55e;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #020617 0%, #0f172a 100%);
+            color: var(--text-main);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        h1, h2 { font-weight: 700; margin-top: 0; }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 8px;
+            background: -webkit-linear-gradient(45deg, var(--accent), #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header-subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+        }
+
+        .glass-panel {
+            background: var(--panel);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 32px;
+            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .glass-panel:hover {
+            box-shadow: 0 15px 40px -10px rgba(0,0,0,0.6);
+        }
+
+        .risk-badge {
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 9999px;
+            font-weight: 800;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        .risk-badge.safe { background: rgba(34, 197, 94, 0.2); color: var(--safe); border: 1px solid var(--safe); }
+        .risk-badge.monitor { background: rgba(245, 158, 11, 0.2); color: var(--warning); border: 1px solid var(--warning); }
+        .risk-badge.danger { background: rgba(239, 68, 68, 0.2); color: var(--danger); border: 1px solid var(--danger); }
+
+        .table-wrapper { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; text-align: left; }
+        th {
+            padding: 16px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid var(--border);
+        }
+        td {
+            padding: 16px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            font-weight: 500;
+        }
+        tr { transition: background 0.2s ease; }
+        tr:hover td { background: rgba(255, 255, 255, 0.05); }
+        .highlight { color: var(--accent); font-weight: 700; }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .charts-grid { grid-template-columns: 1fr; }
+        }
+    </style>
 </head>
 
 <body>
+<div class="container">
+    <h1 class="header-title">Performance Analytics</h1>
+    <p class="header-subtitle">2 Pages Scanned • 20 Iterations</p>
 
-<h1>📊 Combined Performance Report</h1>
+    
+    <div class="glass-panel">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+            <h2>✨ AI Diagnostics</h2>
+            <div class="risk-badge danger">
+                WARNING (87/100)
+            </div>
+        </div>
+        <p style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.6; margin-bottom: 24px;">
+            Google_Page performance regressed by 35.1% in load time and throughput, while Preqin_Page performance improved by 97.6% in load time and 204.1% in throughput.
+        </p>
+        <div>
+            
+                <div style="margin-bottom: 12px; padding-left: 16px; border-left: 2px solid var(--border);">
+                    <strong style="color: var(--text-main);">Google Page:</strong> 
+                    <span style="color: var(--text-muted);">Load time increased by 35.1%, indicating a significant slowdown.</span>
+                </div>
+            
+                <div style="margin-bottom: 12px; padding-left: 16px; border-left: 2px solid var(--border);">
+                    <strong style="color: var(--text-main);">Preqin Page:</strong> 
+                    <span style="color: var(--text-muted);">Throughput improved by 204.1%, suggesting enhanced responsiveness and user experience.</span>
+                </div>
+            
+        </div>
+    </div>
+    
 
-<p>
-  <strong>Total Pages:</strong> 3<br/>
-  <strong>Parallel Runs per Page:</strong> 20
-</p>
+    <div class="glass-panel">
+        <h2>Detailed Metrics</h2>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Scenario</th>
+                        <th>Load (ms)</th>
+                        <th>LCP (ms)</th>
+                        <th>CLS</th>
+                        <th>TTFB (ms)</th>
+                        <th>Payload (KB)</th>
+                        <th>TP (req/s)</th>
+                        <th>TP P95</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr>
+                        <td>Google Page</td>
+                        <td class="highlight">1483</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>144</td>
+                        <td>866.7</td>
+                        <td class="highlight">21.6</td>
+                        <td>28.8</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Preqin Page</td>
+                        <td class="highlight">313</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>11</td>
+                        <td>0.9</td>
+                        <td class="highlight">3.2</td>
+                        <td>9.2</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-
-<section style="border:2px solid #333;padding:16px;margin-bottom:24px;">
-  <h2>🧠 AI Performance Summary</h2>
-
-  <p>
-    <strong>Risk Level:</strong>
-    <span style="
-      color:orange;
-      font-weight:bold;">
-      WARNING (59/100)
-    </span>
-  </p>
-
-  <p>Performance regressions observed on Amazon_Page and MMT_Pro. Google_Page performance is stable.</p>
-
-  <ul>
-    <li><strong>Amazon_Page:</strong> Load time increased by 74% and throughput decreased by 36.5%.</li><li><strong>MMT_Pro:</strong> Load time increased by 29% and throughput remained consistent.</li>
-  </ul>
-</section>
-
-
-<!-- 📋 SUMMARY TABLE (MOVED TO TOP) -->
-<h2>📋 Summary</h2>
-<table>
-<thead>
-<tr>
-  <th>Scenario</th>
-  <th>URL</th>
-  <th>Load (ms)</th>
-  <th>Requests</th>
-  <th>Throughput (req/s)</th>
-  <th>P90</th>
-  <th>P95</th>
-</tr>
-</thead>
-<tbody>
-
-<tr>
-  <td>Amazon_Page</td>
-  <td>https://www.amazon.in/</td>
-  <td>9421.949999999255</td>
-  <td>347</td>
-  <td><strong>36.83</strong></td>
-  <td>44.64</td>
-  <td>55.47</td>
-</tr>
-
-<tr>
-  <td>Google_Page</td>
-  <td>https://www.google.com/</td>
-  <td>1779.6499999985099</td>
-  <td>32</td>
-  <td><strong>17.98</strong></td>
-  <td>23.48</td>
-  <td>23.61</td>
-</tr>
-
-<tr>
-  <td>MMT_Pro</td>
-  <td>https://www.makemytrip.com/</td>
-  <td>4352.1500000003725</td>
-  <td>110</td>
-  <td><strong>25.27</strong></td>
-  <td>26.97</td>
-  <td>32.79</td>
-</tr>
-
-</tbody>
-</table>
-
-<!-- 📉 LOAD TIME CHART -->
-<h2>⏱ Load Time (ms)</h2>
-<canvas id="loadChart"></canvas>
-
-<!-- ⚡ THROUGHPUT CHART -->
-<h2>⚡ Throughput (requests / second)</h2>
-<canvas id="throughputChart"></canvas>
+    <div class="charts-grid">
+        <div class="glass-panel">
+            <h2 style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 16px;">Average Load Times</h2>
+            <canvas id="loadChart"></canvas>
+        </div>
+        <div class="glass-panel">
+            <h2 style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 16px;">Throughput Operations</h2>
+            <canvas id="throughputChart"></canvas>
+        </div>
+    </div>
+</div>
 
 <script>
-const labels = ["Amazon_Page","Google_Page","MMT_Pro"];
-const loadTimes = [9421.949999999255,1779.6499999985099,4352.1500000003725];
-const throughputs = [36.83,17.98,25.27];
+    Chart.defaults.color = '#94a3b8';
+    Chart.defaults.font.family = 'Inter';
 
-// Load Time Chart
-new Chart(document.getElementById('loadChart'), {
-    type: 'bar',
-    data: {
-        labels,
-        datasets: [{
-            label: 'Load Time (ms)',
-            data: loadTimes,
-            backgroundColor: '#4e79a7'
-        }]
-    },
-    options: {
-        responsive: true,
-        scales: {
-            y: { beginAtZero: true }
-        }
-    }
-});
+    const labels = ["Google Page","Preqin Page"];
+    const loadTimes = [1483.3500000000931,313.4499999997206];
+    const throughputs = [21.57,3.19];
 
-// Throughput Chart
-new Chart(document.getElementById('throughputChart'), {
-    type: 'bar',
-    data: {
-        labels,
-        datasets: [{
-            label: 'Throughput (req/s)',
-            data: throughputs,
-            backgroundColor: '#59a14f'
-        }]
-    },
-    options: {
-        responsive: true,
-        scales: {
-            y: { beginAtZero: true }
+    new Chart(document.getElementById('loadChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels,
+            datasets: [{
+                label: 'Load Time (ms)',
+                data: loadTimes,
+                backgroundColor: 'rgba(56, 189, 248, 0.8)',
+                borderRadius: 6,
+                borderSkipped: false
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { display: false } },
+            scales: {
+                y: { grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true },
+                x: { grid: { display: false } }
+            }
         }
-    }
-});
+    });
+
+    new Chart(document.getElementById('throughputChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels,
+            datasets: [{
+                label: 'Requests/sec',
+                data: throughputs,
+                backgroundColor: 'rgba(34, 197, 94, 0.8)',
+                borderRadius: 6,
+                borderSkipped: false
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { display: false } },
+            scales: {
+                y: { grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true },
+                x: { grid: { display: false } }
+            }
+        }
+    });
 </script>
-
-<p style="margin-top:16px;font-size:13px;">
-⚠️ Throughput is calculated from browser-observed network requests during page load.
-</p>
-
 </body>
 </html>
+    

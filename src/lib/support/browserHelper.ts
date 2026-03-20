@@ -16,7 +16,8 @@ export class BrowserHelper {
 
     async launch(): Promise<Browser> {
         this.browser = await chromium.launch({
-            headless: PerfConfig.headless
+            headless: PerfConfig.headless,
+            args: ['--disable-http2']
         });
         return this.browser;
     }
@@ -42,7 +43,7 @@ export class BrowserHelper {
     ): Promise<Response | null> {
         console.log(`➡️ Navigating to: ${url}`);
         return page.goto(url, {
-            timeout: PerfConfig.launchTimeout ?? 30000,
+            timeout: PerfConfig.launchTimeout ?? 120000,
             waitUntil
         });
     }

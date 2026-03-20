@@ -1,0 +1,392 @@
+{
+  "scenario": "Preqin_Page",
+  "url": "https://www.preqin.com/",
+  "parallelCount": 20,
+  "median": {
+    "timings": {
+      "domContentLoaded": 313.20000000018626,
+      "load": 313.4499999997206
+    },
+    "paint": {
+      "fcp": 362,
+      "lcp": 0,
+      "cls": 0
+    },
+    "network": {
+      "requests": 1,
+      "failed": 0,
+      "totalPayloadSize": 919,
+      "avgTtfb": 11.001499999999993
+    },
+    "timestamp": "2026-03-20T13:32:05.553Z"
+  },
+  "throughput": {
+    "median": 3.19,
+    "p90": 6.58,
+    "p95": 9.16,
+    "min": 2.18,
+    "max": 10.99
+  },
+  "samples": [
+    {
+      "timings": {
+        "domContentLoaded": 458.19999999925494,
+        "load": 458.59999999962747
+      },
+      "paint": {
+        "fcp": 504,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 12.591999999999985
+      },
+      "timestamp": "2026-03-20T13:32:05.208Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 351.6000000005588,
+        "load": 351.90000000037253
+      },
+      "paint": {
+        "fcp": 392,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 11.728000000000009
+      },
+      "timestamp": "2026-03-20T13:32:05.214Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 303.59999999962747,
+        "load": 303.69999999925494
+      },
+      "paint": {
+        "fcp": 340,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 7.663999999999987
+      },
+      "timestamp": "2026-03-20T13:32:05.310Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 203.5,
+        "load": 203.69999999925494
+      },
+      "paint": {
+        "fcp": 256,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 52.367000000000004
+      },
+      "timestamp": "2026-03-20T13:32:05.491Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 360.69999999925494,
+        "load": 360.8999999994412
+      },
+      "paint": {
+        "fcp": 424,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 11.672000000000025
+      },
+      "timestamp": "2026-03-20T13:32:05.211Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 306.70000000018626,
+        "load": 307
+      },
+      "paint": {
+        "fcp": 364,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 10.996999999999986
+      },
+      "timestamp": "2026-03-20T13:32:05.212Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 109.09999999962747,
+        "load": 109.19999999925494
+      },
+      "paint": {
+        "fcp": 152,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 9.001999999999995
+      },
+      "timestamp": "2026-03-20T13:32:05.414Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 151.70000000018626,
+        "load": 151.90000000037253
+      },
+      "paint": {
+        "fcp": 196,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 10.686999999999998
+      },
+      "timestamp": "2026-03-20T13:32:05.415Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 399.5,
+        "load": 399.8999999994412
+      },
+      "paint": {
+        "fcp": 444,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 12.74799999999999
+      },
+      "timestamp": "2026-03-20T13:32:05.210Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 337.3999999994412,
+        "load": 337.69999999925494
+      },
+      "paint": {
+        "fcp": 380,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 11.076000000000022
+      },
+      "timestamp": "2026-03-20T13:32:05.214Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 286.90000000037253,
+        "load": 287.1000000005588
+      },
+      "paint": {
+        "fcp": 336,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 11.149000000000001
+      },
+      "timestamp": "2026-03-20T13:32:05.214Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 296.90000000037253,
+        "load": 297
+      },
+      "paint": {
+        "fcp": 352,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 11
+      },
+      "timestamp": "2026-03-20T13:32:05.212Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 376.20000000018626,
+        "load": 376.40000000037253
+      },
+      "paint": {
+        "fcp": 436,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 12.118999999999971
+      },
+      "timestamp": "2026-03-20T13:32:05.212Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 320.90000000037253,
+        "load": 321.1000000005588
+      },
+      "paint": {
+        "fcp": 368,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 8.444000000000017
+      },
+      "timestamp": "2026-03-20T13:32:05.292Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 415.20000000018626,
+        "load": 415.40000000037253
+      },
+      "paint": {
+        "fcp": 468,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 10.589999999999975
+      },
+      "timestamp": "2026-03-20T13:32:05.205Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 319.70000000018626,
+        "load": 319.8999999994412
+      },
+      "paint": {
+        "fcp": 360,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 11.002999999999986
+      },
+      "timestamp": "2026-03-20T13:32:05.212Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 90.79999999981374,
+        "load": 91
+      },
+      "paint": {
+        "fcp": 136,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 6.888000000000005
+      },
+      "timestamp": "2026-03-20T13:32:05.415Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 435.59999999962747,
+        "load": 435.8999999994412
+      },
+      "paint": {
+        "fcp": 488,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 11.02800000000002
+      },
+      "timestamp": "2026-03-20T13:32:05.208Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 220.6000000005588,
+        "load": 220.79999999981374
+      },
+      "paint": {
+        "fcp": 264,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 9.756
+      },
+      "timestamp": "2026-03-20T13:32:05.507Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 239.69999999925494,
+        "load": 240
+      },
+      "paint": {
+        "fcp": 284,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 1,
+        "failed": 0,
+        "totalPayloadSize": 919,
+        "avgTtfb": 9.594999999999999
+      },
+      "timestamp": "2026-03-20T13:32:05.503Z"
+    }
+  ]
+}

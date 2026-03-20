@@ -1,6 +1,8 @@
 export interface NetworkStats {
     requests: number;
     failed: number;
+    totalPayloadSize: number;
+    avgTtfb: number;
 }
 
 export interface PerfMetrics {
@@ -10,6 +12,8 @@ export interface PerfMetrics {
     };
     paint: {
         fcp?: number;
+        lcp?: number;
+        cls?: number;
     };
     network: NetworkStats;
     timestamp: string;

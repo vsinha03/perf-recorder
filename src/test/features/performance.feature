@@ -6,14 +6,14 @@ Feature: Application performance monitoring
     When I wait for the page to fully load
     Then performance metrics are captured
 
-  @amazon @perf
-  Scenario: Amazon Page
-    Given I open the "https://www.amazon.in/"
+  @preqin @perf
+  Scenario: Preqin Page
+    Given I open the "https://www.preqin.com/"
     When I wait for the page to fully load
     Then performance metrics are captured
 
   @mmt @perf
-  Scenario: MMT Pro
+  Scenario: MMT Page
     Given I open the "https://www.makemytrip.com/"
     When I wait for the page to fully load
     Then performance metrics are captured

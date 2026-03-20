@@ -1,15 +1,15 @@
 {
-  "overallSummary": "Performance regressions observed on Amazon_Page and MMT_Pro. Google_Page performance is stable.",
-  "riskScore": 59,
+  "overallSummary": "Google_Page performance regressed by 35.1% in load time and throughput, while Preqin_Page performance improved by 97.6% in load time and 204.1% in throughput.",
+  "riskScore": 87,
   "verdict": "WARNING",
   "pageInsights": [
     {
-      "scenario": "Amazon_Page",
-      "insight": "Load time increased by 74% and throughput decreased by 36.5%."
+      "scenario": "Google_Page",
+      "insight": "Load time increased by 35.1%, indicating a significant slowdown."
     },
     {
-      "scenario": "MMT_Pro",
-      "insight": "Load time increased by 29% and throughput remained consistent."
+      "scenario": "Preqin_Page",
+      "insight": "Throughput improved by 204.1%, suggesting enhanced responsiveness and user experience."
     }
   ]
 }
