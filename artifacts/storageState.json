@@ -1,0 +1,526 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.1.1035509321.1765676617",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1800236622.002374,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUmOM0qD-bxFLOHAQ-YpAX993rBV5DjpxV3UsPb5q-UoSm28-TlYBDWAnp8E",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1800236617.974117,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gads",
+      "value": "ID=bcd614a62665a826:T=1765676617:RT=1765676617:S=ALNI_Marjzk_WF0Ui6qeYXQwFIIXpESYVQ",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1799372617,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gpi",
+      "value": "UID=000011ca0b9ca6e1:T=1765676617:RT=1765676617:S=ALNI_MYze-bVz2wlsslwsebSYR-C4u9JdQ",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1799372617,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__eoi",
+      "value": "ID=66e96ec08af56323:T=1765676617:RT=1765676617:S=AA-AfjYZLF2buK_FAVkCCIom5WpI",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1781228617,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "flashtalkingad1",
+      "value": "\"GUID=655770A22C20AC\"",
+      "domain": ".flashtalking.com",
+      "path": "/",
+      "expires": 1799840618.214594,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "XANDR_PANID",
+      "value": "9dhSq95iRl-gG-Ow4qH_2-8jw08yWK19UkZnsHLS_yeqH5FKKA2-pj6Y0CKEaflHlRBq-ysRMqEIFyaEfnKBkEuyBtUcALcCsJn7luLZaC0.",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1773452618.64248,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://expandtesting.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "uuid2",
+      "value": "1768760487192592540",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1773452618.642576,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CMPS",
+      "value": "5479",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1773452618.23561,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1768268623.092178,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "APC",
+      "value": "AfxxVi5pU66iyuylIy7eNzEDRBaLSBrFZZwXSEUmXAFrHeAhBYeoTg",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1781228618.298463,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://expandtesting.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "CMID",
+      "value": "aT4WSm4sB8MALv2UFqDgUwAA",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1797212618.871111,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CMPRO",
+      "value": "5919",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1773452618.871134,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "anj",
+      "value": "dTM7k!M41.D>6NRF']wIg2C%wp*m)p!]tbPl1M>e)ZlrFUfJ+tGXxo<T_+LkScoaQKa3bE[4UuwCy%[7Yvnwj8BNPY3If)y3KL9D3I?+FwB+P<",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1773452618.642549,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_D9J",
+      "value": "5c41acaa8b9e4a0ba55223d0e97d9a69",
+      "domain": ".flashtalking.com",
+      "path": "/",
+      "expires": 1797212623.307497,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "io",
+      "value": "_--M66yMz3LEwcgjDGX6",
+      "domain": "practice.expandtesting.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": ".www.google-analytics.com",
+      "path": "/",
+      "expires": 1773452621.602746,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "express:sess",
+      "value": "eyJmbGFzaCI6e30sInVzZXJuYW1lIjoicHJhY3RpY2UifQ==",
+      "domain": "practice.expandtesting.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "express:sess.sig",
+      "value": "MhPNo1zptUJNE-6KAjcQQu4cQaw",
+      "domain": "practice.expandtesting.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "i",
+      "value": "e286829b-a689-4ef0-ab02-4cff8f9b90fb|1765676622",
+      "domain": ".openx.net",
+      "path": "/",
+      "expires": 1797212622.745825,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "FCCDCF",
+      "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%22df14b846-1fe5-45cb-9c18-4430ac7e275a%5C%22%2C%5B1765676618%2C262000000%5D%5D%22%5D%5D%5D",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1799372622,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tt_viewer",
+      "value": "6cb2fe8d-eeea-4e16-8b44-51a5af5022dc",
+      "domain": ".teads.tv",
+      "path": "/",
+      "expires": 1797126222.821673,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_auid",
+      "value": "02Lb_SnJBzyeL_oBThY-aQ",
+      "domain": ".c.appier.net",
+      "path": "/",
+      "expires": 1797212622.896861,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gu",
+      "value": "CAESEC7zOok4iIOwQeJ1byc42U0",
+      "domain": ".c.appier.net",
+      "path": "/",
+      "expires": 1768268622.896891,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TDID",
+      "value": "ad6cb853-4f2c-4805-bf50-42cc25fad12a",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1797212623.083885,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "suid",
+      "value": "B151820F116F4F6AB6DE04215066F45E",
+      "domain": ".simpli.fi",
+      "path": "/",
+      "expires": 1797299022.911393,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_90GRT6N40B",
+      "value": "GS2.1.s1765676617$o1$g1$t1765676623$j54$l0$h0",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1800236623.029934,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TDCPM",
+      "value": "CAESFQoGZ29vZ2xlEgsImvLx8Iev3T4QBRgFIAIoAjILCNbTo5yer90-EAU4AQ..",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1797212623.083929,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANON_ID",
+      "value": "afnoeUmge0mousnG6wNbGuuHY60dUcPHY0gMswA0",
+      "domain": ".tribalfusion.com",
+      "path": "/",
+      "expires": 1773452623.12908,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&24cd91a1-c0ad-48d3-86ec-ef55629253c7\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1797212624.189937,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=VGST07:s=V:r=V:a=V:p=V:g=3395:u=1:x=1:i=1765676623:t=1765763023:v=2:sig=AQGPkh8VyODYl1FIpe3j3UEwWwYrk0zh\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1765763024.189962,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_tracker",
+      "value": "%7B%22UUID%22%3A%22D5B2F9BF-4FF9-45AB-060C-41D2A5285624%22%7D",
+      "domain": ".travelaudience.com",
+      "path": "/",
+      "expires": 1799891022.212994,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "gid",
+      "value": "92ac032afb75a82d72e54a93620859f5",
+      "domain": ".gsspat.jp",
+      "path": "/",
+      "expires": 1800236623.227034,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uid",
+      "value": "XVB0i0DIhl",
+      "domain": ".ad-m.asia",
+      "path": "/",
+      "expires": 1800236623.299851,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bitoIsSecure",
+      "value": "ok",
+      "domain": ".bidr.io",
+      "path": "/",
+      "expires": 1799786623.360401,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bito",
+      "value": "AAgRGU7SfC0AAABNMFJ2aA",
+      "domain": ".bidr.io",
+      "path": "/",
+      "expires": 1799786623.360388,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "mlcwc",
+      "value": "eyJ2ZXJzaW9uIjoxLCJwYXlsb2FkIjoiQ0x1cTF0NTBNWHF4UnVqUkZDV3pnWXcyeTlSVHFUL2FYNnBGelBSZVg2a05LRmQrd0NUMTZmc0lSdWdNam5ReG9sdGt3TzgyTkp5NEFpZ2hRTlVKZi9mc2RRWDF0b1cxbUYxQ2x4RlpYZVd3bmlKaUwzZDU0YjhFeDZiTktsL2d2KzNiVndTSVdQQmNtbGZMcjEzTkdkSnJLWXZwbjFOQWlJUzNLV0Z6UDhpbmtnUFQ2c2JwWjNkWXFtS2g3eUpIQm1ZUkdaL3BzdEdpMEJPbDkwTG5JZm9IRWp5NVIxejdBVWJ5dkJXaFBuYTAzTGNiMUZsTUdCTXdUSkpiZlVNPSIsIm5vbmNlIjoiUjI5UlIyY0llK3lWM0NuZSJ9",
+      "domain": ".moloco.com",
+      "path": "/",
+      "expires": 1797212623.36807,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__mguid_",
+      "value": "684fac3dfb11a7bd2lcg5j00mj529txs",
+      "domain": ".mediago.io",
+      "path": "/",
+      "expires": 1797212623.43027,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__mguid_",
+      "value": "684fac3d1f2afea42r9yqo00mj529tyr",
+      "domain": ".admaster.cc",
+      "path": "/",
+      "expires": 1797212623.469689,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "A3",
+      "value": "d=AQABBE8WPmkCEFKOxMPJMO5Y2No_1hvcqx4FEgEBAQFnP2lHaVkZyyMA_eMCAA&S=AQAAAr0LiQICE4TIbQUxrXY8sWU",
+      "domain": ".yahoo.com",
+      "path": "/",
+      "expires": 1797234223.748569,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "idsp_c",
+      "value": "98b6ea4f-8661-4eb6-80c8-5c2421bc6e97",
+      "domain": ".inmobi.com",
+      "path": "/",
+      "expires": 1773452623.475971,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sa-user-id",
+      "value": "s%3A0-faa289ae-75cb-5f70-721a-07a693282ada.f%2FqnBzhg8p2ViI64WglKpY308vfmb3O583A69IFS2vE",
+      "domain": "sync.srv.stackadapt.com",
+      "path": "/",
+      "expires": 1797212623.853751,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sa-user-id",
+      "value": "s%3A0-faa289ae-75cb-5f70-721a-07a693282ada.f%2FqnBzhg8p2ViI64WglKpY308vfmb3O583A69IFS2vE",
+      "domain": ".srv.stackadapt.com",
+      "path": "/",
+      "expires": 1797212623.853822,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sa-user-id-v2",
+      "value": "s%3A-qKJrnXLX3ByGgemkygq2jHNzBg.wrQHOqYw0%2BDu4LAId1JHzAUodwzI6SNskktijWgluzA",
+      "domain": "sync.srv.stackadapt.com",
+      "path": "/",
+      "expires": 1797212623.853839,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sa-user-id-v2",
+      "value": "s%3A-qKJrnXLX3ByGgemkygq2jHNzBg.wrQHOqYw0%2BDu4LAId1JHzAUodwzI6SNskktijWgluzA",
+      "domain": ".srv.stackadapt.com",
+      "path": "/",
+      "expires": 1797212623.85385,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "FCNEC",
+      "value": "%5B%5B%22AKsRol92ZXOsTr9EMQUwrMAKJtPx7qbCeiFsKfPiIevXROSubBoXKTHdIL-ArpwJIcJTf1g643bwFEkKUJciJ4d_E_fN8S3tsUyJaDTW9LX_TvLH_tm08LLwcy25Tc85Y6otws6UjDzz8qZCnf3zdz3zVrdgOZVwyA%3D%3D%22%5D%5D",
+      "domain": ".expandtesting.com",
+      "path": "/",
+      "expires": 1797212623,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDSYNC",
+      "value": "19h1~2t4p",
+      "domain": ".analytics.yahoo.com",
+      "path": "/",
+      "expires": 1797212623.748496,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sa-user-id-v3",
+      "value": "s%3AAQAKIAL61tD6lvrAWLZSy3vjLpuoi6yDtr6Xn8m8BiDbt-UnEAMYAyDPrPjJBjABOgQTDjy1QgRLFKGG.%2BCpg29PaYYm8SKa0XqN8i6gE78AsiGwMOR2JweoTNnM",
+      "domain": "sync.srv.stackadapt.com",
+      "path": "/",
+      "expires": 1797212623.853858,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sa-user-id-v3",
+      "value": "s%3AAQAKIAL61tD6lvrAWLZSy3vjLpuoi6yDtr6Xn8m8BiDbt-UnEAMYAyDPrPjJBjABOgQTDjy1QgRLFKGG.%2BCpg29PaYYm8SKa0XqN8i6gE78AsiGwMOR2JweoTNnM",
+      "domain": ".srv.stackadapt.com",
+      "path": "/",
+      "expires": 1797212623.853869,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://practice.expandtesting.com",
+      "localStorage": [
+        {
+          "name": "google_adsense_settings",
+          "value": "{\"ca-pub-1056034821646296\":[\"ca-pub-1056034821646296\",[[1]]]}"
+        },
+        {
+          "name": "google_ama_config",
+          "value": "[[[[null,0,null,[],null,null,\"DIV.ad-bar\"],3,[\"10px\",\"10px\",1],[4],null,[],[],1,[],[]],[[null,14,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,2,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV>P\"],1,[\"10px\",\"16px\",1],[3],null,[],[],1,[],[5]],[[null,0,null,[],null,null,\"BODY>MAIN>DIV.container-fluid\"],1,[\"4px\",\"10px\",1],[2],null,[],[],1,[],[]],[[null,5,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.page-layout>DIV.row>DIV\"],4,[\"16px\",\"10px\",1],[3],null,[],[],1,[],[5]],[[null,12,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,7,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY\"],3,[\"10px\",\"10px\",1],[5],null,[],[],1,[],[]],[[null,1,null,[],null,null,\"SECTION#assertions>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,2,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV\"],4,[\"16px\",\"10px\",1],[1],null,[],[],1,[],[]],[[null,9,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#examples\"],4,[\"10px\",\"10px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#reports>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#apps>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,5,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV>P\"],1,[\"10px\",\"16px\",1],[1],null,[],[],1,[],[]],[[null,8,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#api>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,3,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY\"],2,[\"10px\",\"10px\",1],[4],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#examples\"],1,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,4,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,15,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY>FOOTER.footer.mt-auto.bg-light\"],1,[\"10px\",\"10px\",1],[0],null,[],[],1,[],[2,4]],[[null,0,null,[],null,null,\"H2#community-example\"],1,[\"10px\",\"16px\",1],[3],null,[],[],1,[],[5]],[[null,0,null,[],null,null,\"DIV#contentbody\"],1,[\"10px\",\"10px\",1],[2],null,[],[],1,[],[]],[[null,13,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.ad-bar\"],4,[\"10px\",\"10px\",1],[4],null,[],[],1,[],[]],[[null,6,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,2,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#assertions>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,11,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV#support-coffee\"],4,[\"10px\",\"10px\",1],[2],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"H4\"],1,[\"10px\",\"10px\",1],[5],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"BODY>FOOTER.footer.mt-auto.bg-light>DIV.container>DIV.copyright.bg-footer>DIV.border-top\"],4,[\"10px\",\"10px\",1],[5],null,[],[],1,[],[5]],[[null,10,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,1,null,[],null,null,\"SECTION#apps>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,1,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"SECTION#examples>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,3,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV>P\"],1,[\"10px\",\"16px\",1],[3],null,[],[],1,[],[5]],[[null,0,null,[],null,null,\"SECTION#tools>DIV.row\"],4,[\"10px\",\"8px\",1],[1],null,[],[],1,[],[]],[[null,0,null,[],null,null,\"DIV.ad-bar>P.text-center.ad-bar-text\"],1,[\"10px\",\"10px\",1],[4],null,[],[],1,[],[]]],[],[1765763022573],\"20251210_093552\",[],[[[[null,2,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV\"],[null,null,null,[],null,null,\"P\"],null,[null,null,null,[],null,null,\"H3,IMG.img-fluid,LI,P\"]],[[null,1,null,[],null,null,\"SECTION#tools>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,null,null,[],null,null,\"DIV.page-layout>DIV.container\"],[null,null,null,[],null,null,\"P\"],null,[null,null,null,[],null,null,\"H1,P\"]],[[null,3,null,[],null,null,\"SECTION#examples>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,null,null,[],null,null,\"DIV#home-header\"],[null,null,null,[],null,null,\"H2\"],null,[null,null,null,[],null,null,\"H1.alert-heading.text-center,H2\"]],[[null,0,null,[],null,null,\"SECTION#reports>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,2,null,[],null,null,\"SECTION#examples>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,1,null,[],null,null,\"SECTION#reports>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,0,null,[],null,null,\"SECTION#examples>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,1,null,[],null,null,\"SECTION#examples>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,null,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV\"],[null,null,null,[],null,null,\"P\"],null,[null,null,null,[],null,null,\"H2,H3,LI,P\"]],[[null,2,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV\"],[null,null,null,[]]],[[null,null,null,[],null,null,\"SECTION#examples\"],[null,null,null,[],null,null,\"H2\"],null,[null,null,null,[],null,null,\"H2,H3.card-title.expand-card-title,P.card-text\"]],[[null,0,null,[],null,null,\"SECTION#tools>DIV.row>DIV>DIV.card.card-custom>DIV.card-body\"],[null,null,null,[],null,null,\"P.card-text\"],null,[null,null,null,[],null,null,\"H3.card-title.expand-card-title,P.card-text\"]],[[null,null,null,[],null,null,\"DIV.page-layout>DIV.row>DIV\"],[null,null,null,[],null,null,\"P\"],null,[null,null,null,[],null,null,\"H2,H3,LI,P\"]],[[null,0,null,[],null,null,\"DIV.page-layout>DIV.container>DIV.row>DIV>OL\"],[null,null,null,[],null,null,\"LI\"],null,[null,null,null,[],null,null,\"LI\"]]]],[[null,[1,3,2],null,\"2533588893\",[],[],[0,2],null,null,[0.74000001,null,2,7,530,1],[]]],[null,[[1,\"1vp\",[[4,\"2vp\",\"2vp\"],[6,\"3vp\",\"3vp\"]],8,\"1vp\",0.30000001,[\"0.2vp\",\"0vp\",2]],[2,\"300px\",[[4,\"600px\",\"600px\"],[6,\"900px\",\"900px\"]],8,\"300px\",0.30000001,[\"60px\",\"0px\",2]]]],null,null,null,null,null,null,[null,null,null,null,null,null,null,null,null,null,null,0],null,null,[1,null,null,[]],null,[1588290506],null,null,[1765582495324],null,null,null,null,null,null,null,null,null,[[\"Toggle toolbar expansion\",\"Toggle privacy and legal settings display\",\"Dismiss privacy and legal settings display\"]]]"
+        },
+        {
+          "name": "google_ama_settings",
+          "value": "[1765763022583,1]"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::h",
+          "value": "1765676620174"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "overallSummary": "Performance regressions observed on Amazon_Page and MMT_Pro. Google_Page performance is stable.",
+  "riskScore": 59,
+  "verdict": "WARNING",
+  "pageInsights": [
+    {
+      "scenario": "Amazon_Page",
+      "insight": "Load time increased by 74% and throughput decreased by 36.5%."
+    },
+    {
+      "scenario": "MMT_Pro",
+      "insight": "Load time increased by 29% and throughput remained consistent."
+    }
+  ]
+}

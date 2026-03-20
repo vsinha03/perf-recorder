@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Combined Performance Report</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 24px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 16px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  background: #333;
+  color: white;
+}
+canvas {
+  margin-top: 24px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📊 Combined Performance Report</h1>
+
+<p>
+  <strong>Total Pages:</strong> 3<br/>
+  <strong>Parallel Runs per Page:</strong> 20
+</p>
+
+
+<section style="border:2px solid #333;padding:16px;margin-bottom:24px;">
+  <h2>🧠 AI Performance Summary</h2>
+
+  <p>
+    <strong>Risk Level:</strong>
+    <span style="
+      color:orange;
+      font-weight:bold;">
+      WARNING (59/100)
+    </span>
+  </p>
+
+  <p>Performance regressions observed on Amazon_Page and MMT_Pro. Google_Page performance is stable.</p>
+
+  <ul>
+    <li><strong>Amazon_Page:</strong> Load time increased by 74% and throughput decreased by 36.5%.</li><li><strong>MMT_Pro:</strong> Load time increased by 29% and throughput remained consistent.</li>
+  </ul>
+</section>
+
+
+<!-- 📋 SUMMARY TABLE (MOVED TO TOP) -->
+<h2>📋 Summary</h2>
+<table>
+<thead>
+<tr>
+  <th>Scenario</th>
+  <th>URL</th>
+  <th>Load (ms)</th>
+  <th>Requests</th>
+  <th>Throughput (req/s)</th>
+  <th>P90</th>
+  <th>P95</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+  <td>Amazon_Page</td>
+  <td>https://www.amazon.in/</td>
+  <td>9421.949999999255</td>
+  <td>347</td>
+  <td><strong>36.83</strong></td>
+  <td>44.64</td>
+  <td>55.47</td>
+</tr>
+
+<tr>
+  <td>Google_Page</td>
+  <td>https://www.google.com/</td>
+  <td>1779.6499999985099</td>
+  <td>32</td>
+  <td><strong>17.98</strong></td>
+  <td>23.48</td>
+  <td>23.61</td>
+</tr>
+
+<tr>
+  <td>MMT_Pro</td>
+  <td>https://www.makemytrip.com/</td>
+  <td>4352.1500000003725</td>
+  <td>110</td>
+  <td><strong>25.27</strong></td>
+  <td>26.97</td>
+  <td>32.79</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- 📉 LOAD TIME CHART -->
+<h2>⏱ Load Time (ms)</h2>
+<canvas id="loadChart"></canvas>
+
+<!-- ⚡ THROUGHPUT CHART -->
+<h2>⚡ Throughput (requests / second)</h2>
+<canvas id="throughputChart"></canvas>
+
+<script>
+const labels = ["Amazon_Page","Google_Page","MMT_Pro"];
+const loadTimes = [9421.949999999255,1779.6499999985099,4352.1500000003725];
+const throughputs = [36.83,17.98,25.27];
+
+// Load Time Chart
+new Chart(document.getElementById('loadChart'), {
+    type: 'bar',
+    data: {
+        labels,
+        datasets: [{
+            label: 'Load Time (ms)',
+            data: loadTimes,
+            backgroundColor: '#4e79a7'
+        }]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: { beginAtZero: true }
+        }
+    }
+});
+
+// Throughput Chart
+new Chart(document.getElementById('throughputChart'), {
+    type: 'bar',
+    data: {
+        labels,
+        datasets: [{
+            label: 'Throughput (req/s)',
+            data: throughputs,
+            backgroundColor: '#59a14f'
+        }]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: { beginAtZero: true }
+        }
+    }
+});
+</script>
+
+<p style="margin-top:16px;font-size:13px;">
+⚠️ Throughput is calculated from browser-observed network requests during page load.
+</p>
+
+</body>
+</html>

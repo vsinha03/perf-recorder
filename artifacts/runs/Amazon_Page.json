@@ -1,0 +1,308 @@
+{
+  "scenario": "Amazon_Page",
+  "url": "https://www.amazon.in/",
+  "parallelCount": 20,
+  "median": {
+    "timings": {
+      "domContentLoaded": 3870.9000000003725,
+      "load": 9421.949999999255
+    },
+    "paint": {
+      "fcp": 1316
+    },
+    "network": {
+      "requests": 347,
+      "failed": 0
+    },
+    "timestamp": "2025-12-14T01:44:07.064Z"
+  },
+  "throughput": {
+    "median": 36.83,
+    "p90": 44.64,
+    "p95": 55.47,
+    "min": 29.84,
+    "max": 100.96
+  },
+  "samples": [
+    {
+      "timings": {
+        "domContentLoaded": 2032.1000000014901,
+        "load": 11198.5
+      },
+      "paint": {
+        "fcp": 1312
+      },
+      "network": {
+        "requests": 362,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:06.876Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 2060.199999999255,
+        "load": 10823.199999999255
+      },
+      "paint": {
+        "fcp": 1312
+      },
+      "network": {
+        "requests": 363,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:06.527Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 2876.599999997765,
+        "load": 3050.699999999255
+      },
+      "paint": {
+        "fcp": 864
+      },
+      "network": {
+        "requests": 308,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:43:59.566Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 2856.099999997765,
+        "load": 6418
+      },
+      "paint": {
+        "fcp": 900
+      },
+      "network": {
+        "requests": 356,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:02.956Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 3436.300000000745,
+        "load": 9218.800000000745
+      },
+      "paint": {
+        "fcp": 1280
+      },
+      "network": {
+        "requests": 361,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:05.721Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 1710.5,
+        "load": 10756.800000000745
+      },
+      "paint": {
+        "fcp": 996
+      },
+      "network": {
+        "requests": 321,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:06.756Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 3790.5,
+        "load": 9663.199999999255
+      },
+      "paint": {
+        "fcp": 1484
+      },
+      "network": {
+        "requests": 314,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:06.422Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 3540.800000000745,
+        "load": 10471.699999999255
+      },
+      "paint": {
+        "fcp": 864
+      },
+      "network": {
+        "requests": 362,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:07.042Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 4188.800000000745,
+        "load": 8109.10000000149
+      },
+      "paint": {
+        "fcp": 1476
+      },
+      "network": {
+        "requests": 362,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:04.761Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 4052.39999999851,
+        "load": 9674.39999999851
+      },
+      "paint": {
+        "fcp": 1776
+      },
+      "network": {
+        "requests": 352,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:06.120Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 4198,
+        "load": 9634.800000000745
+      },
+      "paint": {
+        "fcp": 1620
+      },
+      "network": {
+        "requests": 318,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:06.234Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 7137.599999997765,
+        "load": 9281.099999997765
+      },
+      "paint": {
+        "fcp": 6192
+      },
+      "network": {
+        "requests": 361,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:05.947Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 3951.300000000745,
+        "load": 8348.20000000298
+      },
+      "paint": {
+        "fcp": 1592
+      },
+      "network": {
+        "requests": 318,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:05.220Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 4007.900000002235,
+        "load": 8615.60000000149
+      },
+      "paint": {
+        "fcp": 1912
+      },
+      "network": {
+        "requests": 318,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:05.217Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 3972.300000000745,
+        "load": 9562.800000000745
+      },
+      "paint": {
+        "fcp": 1320
+      },
+      "network": {
+        "requests": 319,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:06.422Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 3278.699999999255,
+        "load": 8029.699999999255
+      },
+      "paint": {
+        "fcp": 1144
+      },
+      "network": {
+        "requests": 342,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:04.760Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 4142.300000000745,
+        "load": 9202.900000002235
+      },
+      "paint": {
+        "fcp": 1264
+      },
+      "network": {
+        "requests": 353,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:06.000Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 4102.900000002235,
+        "load": 9781.300000000745
+      },
+      "paint": {
+        "fcp": 1296
+      },
+      "network": {
+        "requests": 319,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:06.651Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 4937.300000000745,
+        "load": 9654
+      },
+      "paint": {
+        "fcp": 1488
+      },
+      "network": {
+        "requests": 362,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:06.422Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 3631.099999997765,
+        "load": 8404.099999997765
+      },
+      "paint": {
+        "fcp": 1372
+      },
+      "network": {
+        "requests": 318,
+        "failed": 0
+      },
+      "timestamp": "2025-12-14T01:44:05.316Z"
+    }
+  ]
+}

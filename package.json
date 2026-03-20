@@ -1,0 +1,20 @@
+{
+  "name": "playwright-perf-recorder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "perf:clean": "rm -rf artifacts",
+    "perf": "npm run perf:clean && cucumber-js --profile perf",
+    "perf:debug": "cucumber-js --publish-quiet --format progress"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "@playwright/test": "^1.42.0",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
