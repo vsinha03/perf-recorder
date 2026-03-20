@@ -4,305 +4,389 @@
   "parallelCount": 20,
   "median": {
     "timings": {
-      "domContentLoaded": 799.6499999985099,
-      "load": 1779.6499999985099
+      "domContentLoaded": 995,
+      "load": 1483.3500000000931
     },
     "paint": {
-      "fcp": 1354
+      "fcp": 758,
+      "lcp": 0,
+      "cls": 0
     },
     "network": {
       "requests": 32,
-      "failed": 0
+      "failed": 0,
+      "totalPayloadSize": 887544,
+      "avgTtfb": 144.31662068965517
     },
-    "timestamp": "2025-12-14T01:43:51.768Z"
+    "timestamp": "2026-03-20T13:32:01.421Z"
   },
   "throughput": {
-    "median": 17.98,
-    "p90": 23.48,
-    "p95": 23.61,
-    "min": 14.89,
-    "max": 30.63
+    "median": 21.57,
+    "p90": 25.84,
+    "p95": 28.82,
+    "min": 14.42,
+    "max": 35.5
   },
   "samples": [
     {
       "timings": {
-        "domContentLoaded": 900.8000000007451,
-        "load": 1960.199999999255
+        "domContentLoaded": 736.2000000001863,
+        "load": 1314
       },
       "paint": {
-        "fcp": 1596
+        "fcp": 560,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
         "requests": 32,
-        "failed": 0
+        "failed": 0,
+        "totalPayloadSize": 913357,
+        "avgTtfb": 138.74731034482755
       },
-      "timestamp": "2025-12-14T01:43:51.440Z"
+      "timestamp": "2026-03-20T13:32:00.667Z"
     },
     {
       "timings": {
-        "domContentLoaded": 756.1000000014901,
-        "load": 1719.5
+        "domContentLoaded": 384,
+        "load": 929.5
       },
       "paint": {
-        "fcp": 1016
+        "fcp": 476,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
         "requests": 33,
-        "failed": 0
+        "failed": 0,
+        "totalPayloadSize": 912690,
+        "avgTtfb": 72.95190625000001
       },
-      "timestamp": "2025-12-14T01:43:51.362Z"
+      "timestamp": "2026-03-20T13:32:00.619Z"
     },
     {
       "timings": {
-        "domContentLoaded": 746.1000000014901,
-        "load": 1363
+        "domContentLoaded": 663.7999999998137,
+        "load": 1251
       },
       "paint": {
-        "fcp": 1452
+        "fcp": 580,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
         "requests": 32,
-        "failed": 0
+        "failed": 0,
+        "totalPayloadSize": 913340,
+        "avgTtfb": 88.0993870967742
       },
-      "timestamp": "2025-12-14T01:43:51.376Z"
+      "timestamp": "2026-03-20T13:32:00.633Z"
     },
     {
       "timings": {
-        "domContentLoaded": 831.6999999992549,
-        "load": 1673.0999999977648
+        "domContentLoaded": 1380.4000000003725,
+        "load": 2281.7000000001863
       },
       "paint": {
-        "fcp": 1628
-      },
-      "network": {
-        "requests": 32,
-        "failed": 0
-      },
-      "timestamp": "2025-12-14T01:43:51.380Z"
-    },
-    {
-      "timings": {
-        "domContentLoaded": 870.5999999977648,
-        "load": 1978.0999999977648
-      },
-      "paint": {
-        "fcp": 1396
-      },
-      "network": {
-        "requests": 32,
-        "failed": 0
-      },
-      "timestamp": "2025-12-14T01:43:51.522Z"
-    },
-    {
-      "timings": {
-        "domContentLoaded": 845.6999999992549,
-        "load": 1959.5
-      },
-      "paint": {
-        "fcp": 1536
-      },
-      "network": {
-        "requests": 32,
-        "failed": 0
-      },
-      "timestamp": "2025-12-14T01:43:51.441Z"
-    },
-    {
-      "timings": {
-        "domContentLoaded": 734.0999999977648,
-        "load": 1694.3999999985099
-      },
-      "paint": {
-        "fcp": 984
+        "fcp": 988,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
         "requests": 33,
-        "failed": 0
+        "failed": 0,
+        "totalPayloadSize": 863640,
+        "avgTtfb": 190.46469999999997
       },
-      "timestamp": "2025-12-14T01:43:51.375Z"
+      "timestamp": "2026-03-20T13:32:01.063Z"
     },
     {
       "timings": {
-        "domContentLoaded": 819.2999999970198,
-        "load": 1962.0999999977648
+        "domContentLoaded": 820.9000000003725,
+        "load": 1400.2999999998137
       },
       "paint": {
-        "fcp": 1508
-      },
-      "network": {
-        "requests": 33,
-        "failed": 0
-      },
-      "timestamp": "2025-12-14T01:43:51.441Z"
-    },
-    {
-      "timings": {
-        "domContentLoaded": 876.6999999992549,
-        "load": 1960
-      },
-      "paint": {
-        "fcp": 1564
-      },
-      "network": {
-        "requests": 33,
-        "failed": 0
-      },
-      "timestamp": "2025-12-14T01:43:51.441Z"
-    },
-    {
-      "timings": {
-        "domContentLoaded": 678.2999999970198,
-        "load": 1754.3999999985099
-      },
-      "paint": {
-        "fcp": 1368
+        "fcp": 644,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
         "requests": 32,
-        "failed": 0
+        "failed": 0,
+        "totalPayloadSize": 913434,
+        "avgTtfb": 143.9761724137931
       },
-      "timestamp": "2025-12-14T01:43:51.441Z"
+      "timestamp": "2026-03-20T13:32:00.668Z"
     },
     {
       "timings": {
-        "domContentLoaded": 772.3000000007451,
-        "load": 2081.5
+        "domContentLoaded": 811.3999999994412,
+        "load": 1267
       },
       "paint": {
-        "fcp": 1340
-      },
-      "network": {
-        "requests": 31,
-        "failed": 0
-      },
-      "timestamp": "2025-12-14T01:43:51.524Z"
-    },
-    {
-      "timings": {
-        "domContentLoaded": 780,
-        "load": 1969.300000000745
-      },
-      "paint": {
-        "fcp": 1480
-      },
-      "network": {
-        "requests": 34,
-        "failed": 0
-      },
-      "timestamp": "2025-12-14T01:43:51.442Z"
-    },
-    {
-      "timings": {
-        "domContentLoaded": 733.1999999992549,
-        "load": 1846.3999999985099
-      },
-      "paint": {
-        "fcp": 1272
+        "fcp": 628,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
         "requests": 32,
-        "failed": 0
+        "failed": 0,
+        "totalPayloadSize": 912515,
+        "avgTtfb": 121.74196296296294
       },
-      "timestamp": "2025-12-14T01:43:51.521Z"
+      "timestamp": "2026-03-20T13:32:00.634Z"
     },
     {
       "timings": {
-        "domContentLoaded": 986.5999999977648,
-        "load": 1540.199999999255
+        "domContentLoaded": 834.0999999996275,
+        "load": 1367.5
       },
       "paint": {
-        "fcp": 928
-      },
-      "network": {
-        "requests": 31,
-        "failed": 0
-      },
-      "timestamp": "2025-12-14T01:43:51.524Z"
-    },
-    {
-      "timings": {
-        "domContentLoaded": 749.5999999977648,
-        "load": 1852.8999999985099
-      },
-      "paint": {
-        "fcp": 1424
+        "fcp": 676,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
         "requests": 32,
-        "failed": 0
+        "failed": 0,
+        "totalPayloadSize": 913610,
+        "avgTtfb": 144.65706896551723
       },
-      "timestamp": "2025-12-14T01:43:51.441Z"
+      "timestamp": "2026-03-20T13:32:00.634Z"
     },
     {
       "timings": {
-        "domContentLoaded": 777.8000000007451,
-        "load": 1804.8999999985099
+        "domContentLoaded": 736.2000000001863,
+        "load": 1238.2000000001863
       },
       "paint": {
-        "fcp": 1316
+        "fcp": 580,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
         "requests": 32,
-        "failed": 0
+        "failed": 0,
+        "totalPayloadSize": 913540,
+        "avgTtfb": 131.54855555555557
       },
-      "timestamp": "2025-12-14T01:43:51.442Z"
+      "timestamp": "2026-03-20T13:32:00.646Z"
     },
     {
       "timings": {
-        "domContentLoaded": 777.8999999985099,
-        "load": 881.5
+        "domContentLoaded": 781.8000000007451,
+        "load": 1276.6000000005588
       },
       "paint": {
-        "fcp": 736
+        "fcp": 596,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
-        "requests": 27,
-        "failed": 0
+        "requests": 32,
+        "failed": 0,
+        "totalPayloadSize": 913293,
+        "avgTtfb": 134.49129629629633
       },
-      "timestamp": "2025-12-14T01:43:51.750Z"
+      "timestamp": "2026-03-20T13:32:00.635Z"
     },
     {
       "timings": {
-        "domContentLoaded": 1064.5,
-        "load": 1604
+        "domContentLoaded": 776.4000000003725,
+        "load": 1238.9000000003725
       },
       "paint": {
-        "fcp": 1012
+        "fcp": 680,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
-        "requests": 31,
-        "failed": 0
+        "requests": 32,
+        "failed": 0,
+        "totalPayloadSize": 911281,
+        "avgTtfb": 135.2503703703704
       },
-      "timestamp": "2025-12-14T01:43:51.524Z"
+      "timestamp": "2026-03-20T13:32:00.669Z"
     },
     {
       "timings": {
-        "domContentLoaded": 874.8999999985099,
-        "load": 1397.5999999977648
+        "domContentLoaded": 1274.2000000001863,
+        "load": 2115.2999999998137
       },
       "paint": {
-        "fcp": 812
+        "fcp": 952,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
         "requests": 33,
-        "failed": 0
+        "failed": 0,
+        "totalPayloadSize": 911240,
+        "avgTtfb": 150.22096874999997
       },
-      "timestamp": "2025-12-14T01:43:51.524Z"
+      "timestamp": "2026-03-20T13:32:01.061Z"
     },
     {
       "timings": {
-        "domContentLoaded": 1023.3000000007451,
-        "load": 1563.300000000745
+        "domContentLoaded": 1419.2000000001863,
+        "load": 2173
       },
       "paint": {
-        "fcp": 972
+        "fcp": 1024,
+        "lcp": 0,
+        "cls": 0
       },
       "network": {
-        "requests": 33,
-        "failed": 0
+        "requests": 32,
+        "failed": 0,
+        "totalPayloadSize": 863644,
+        "avgTtfb": 161.7676896551724
       },
-      "timestamp": "2025-12-14T01:43:51.523Z"
+      "timestamp": "2026-03-20T13:32:01.063Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 1382.7999999998137,
+        "load": 2219.5999999996275
+      },
+      "paint": {
+        "fcp": 1096,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 32,
+        "failed": 0,
+        "totalPayloadSize": 863566,
+        "avgTtfb": 194.1695517241379
+      },
+      "timestamp": "2026-03-20T13:32:01.062Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 1315.7000000001863,
+        "load": 2171.2000000001863
+      },
+      "paint": {
+        "fcp": 1016,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 32,
+        "failed": 0,
+        "totalPayloadSize": 863626,
+        "avgTtfb": 184.05658620689658
+      },
+      "timestamp": "2026-03-20T13:32:01.062Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 1155.9000000003725,
+        "load": 2008.7999999998137
+      },
+      "paint": {
+        "fcp": 836,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 32,
+        "failed": 0,
+        "totalPayloadSize": 863489,
+        "avgTtfb": 165.27906666666664
+      },
+      "timestamp": "2026-03-20T13:32:01.062Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 1413,
+        "load": 2205.4000000003725
+      },
+      "paint": {
+        "fcp": 1116,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 32,
+        "failed": 0,
+        "totalPayloadSize": 863848,
+        "avgTtfb": 167.80719354838712
+      },
+      "timestamp": "2026-03-20T13:32:01.062Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 1245.7999999998137,
+        "load": 2070.399999999441
+      },
+      "paint": {
+        "fcp": 936,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 32,
+        "failed": 0,
+        "totalPayloadSize": 863595,
+        "avgTtfb": 159.3014827586207
+      },
+      "timestamp": "2026-03-20T13:32:01.063Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 1270.7999999998137,
+        "load": 2152.5
+      },
+      "paint": {
+        "fcp": 988,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 32,
+        "failed": 0,
+        "totalPayloadSize": 863686,
+        "avgTtfb": 171.30370967741933
+      },
+      "timestamp": "2026-03-20T13:32:01.062Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 1432.2999999998137,
+        "load": 1566.4000000003725
+      },
+      "paint": {
+        "fcp": 1172,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 28,
+        "failed": 0,
+        "totalPayloadSize": 845650,
+        "avgTtfb": 116.21282352941176
+      },
+      "timestamp": "2026-03-20T13:32:01.243Z"
+    },
+    {
+      "timings": {
+        "domContentLoaded": 617,
+        "load": 798
+      },
+      "paint": {
+        "fcp": 520,
+        "lcp": 0,
+        "cls": 0
+      },
+      "network": {
+        "requests": 23,
+        "failed": 0,
+        "totalPayloadSize": 760466,
+        "avgTtfb": 108.749
+      },
+      "timestamp": "2026-03-20T13:32:01.412Z"
     }
   ]
 }
